@@ -67,6 +67,7 @@ Dimensions:
 # A tibble: 180 x 88
 # Groups:   Subject [30]
 
+
 My run_analysis.R that does the following:
 
 Read in both test and train data set seperately. 
@@ -75,4 +76,5 @@ Extracts only the measurements on the mean and standard deviation for each measu
 Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+I saved the result in analysis.txt
 
